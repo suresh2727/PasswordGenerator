@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.box {
+  border: 4px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 70px auto;
+  height: 500px;
+  width: 400px;
+  font-size: 30px;
+  background-image: linear-gradient(rgb(159, 159, 222), rgb(224, 169, 169));
+  border-radius: 20px;
+}
+
+input.ck {
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+  background-color: grey;
+}
+
+label {
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
+}
+
+#generatepassword {
+  margin: 40px;
+  padding: 20px;
+  text-transform: uppercase;
+  background-image: linear-gradient(rgb(243, 107, 107), rgb(255, 159, 49));
+  color: white;
+  font-weight: 700;
+  outline: none;
+  font-size: 20px;
+  letter-spacing: 4px;
+  border-radius: 20px;
+}
+
+#password {
+  color: rgb(243, 82, 82);
+}
+
+#generatepassword:hover {
+  scale: 1.1;
+  transition: 100ms linear;
+  outline: none;
+  letter-spacing: 2px;
+}
